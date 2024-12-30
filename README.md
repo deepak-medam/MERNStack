@@ -44,3 +44,27 @@ This is the Repository for the course Delta 3.0 which includes Full Stack Develo
 
 * Undefined: A variable that has not been assigned a value is of type undefined.
 * null : The null value represents the intentional absence of any object value. To be explicitly assigned.
+
+### P2
+
+- you can use script tag to link js file
+- Template literals are used to add embedded expressions in a string.
+
+* Comparision operators compare two values.
+* Nesting is writing if-else inside if-else statements. It can have many levels.
+
+* Falsy values
+
+  - false
+  - 0
+  - -0
+  - On(BigInt values)
+  - ""(empty string)
+  - null
+  - undefined
+  - NaN
+
+* Truthy values - Everything else.
+* Alert displays an alert message on the page.
+* You can use console.error() to display a error message and console.warn() to display a warning message.
+* Prompt displays a dialog box that asks user or some input.
