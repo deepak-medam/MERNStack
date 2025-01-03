@@ -121,3 +121,7 @@ This is the Repository for the course Delta 3.0 which includes Full Stack Develo
 
 * constant arrays, In constant array you would be able to change, add, delete elements but you wont be able to change the address variable of the array.
 * Nested array: Array of arrays or multi dimensional arrays.
+
+### P4
+
+- If ending condition is missing or logically wrong, you will run into infinite loop.
