@@ -68,3 +68,56 @@ This is the Repository for the course Delta 3.0 which includes Full Stack Develo
 * Alert displays an alert message on the page.
 * You can use console.error() to display a error message and console.warn() to display a warning message.
 * Prompt displays a dialog box that asks user or some input.
+
+### P3
+
+- Methods - actions that can be performed on objects.
+- str.trim() - Trims whitespace from both ends of string & returns a new one. It doesn't remove whitespace in between the string.
+- trim method() doesn't modify the existing string it creates a new string without whitespaces.
+- Strings are immutable in JavaScript.
+- .toUpperCase() - converts the string to all upper case letter string.
+- .toLowerCase() - converts the string to all lower case letter string.
+
+- Argument is some value that we pass to the method.
+- indexOf() - returns the first index of occurence of some value in string. or gives -1 if not found.
+- Method chaining - using one method after another. Order of execution will be left to right.
+- slice() - returns a part of the original string as a new string.
+- replace() - Searches a value in the string & returns a new string with the value replaced. If there are multiple words it only replaces first occurence not all occurences.
+- repeat() - returns a string with the number of copies of string.
+
+* Arrays - Linear collection of things.
+* Arrays can be subset using [] brackets
+
+####
+
+    let students = ['Snickers', 'Oreo', 'Galaxy'];
+    console.log(students.length);
+
+    let info = ['Shradha', 23, 89.9];
+    console.log(info.length);
+    console.log(info[0]);
+    console.log(info[0][0]);
+
+####
+
+- Arrays are mutable, unlike strings when an array is changed the same array is modified.
+
+* Array Methods
+
+  - push() - add to end
+  - pop() - delete from end and returns it
+  - unshift() - add to start
+  - shift() - delete from start and returns it
+  - indexOf() - returns index of something.
+  - includes() - search for a value.
+  - concat() - merge two arrays.
+  - reverse() - reverse an array. reverse changes the original array.
+  - slice() - Copies a portion of an array.
+  - splice() - removes, replaces, add elements in place. splice(start, deleteCount, item0...itemN).Splice makes changes to original array. Its like one in all tool. Just with starting index it works like slice(). splice(0,1) with two arguments will delete one element with index starting at 0. splice(0, 1, "black", "grey") will delete one element with index 0 and add the strings from position 0.
+  - sort() - sorts an array. NOTE: Sort method first convert the numbers to strings and sort them based on unicodes which results in discrepencies when sorting numbers.
+
+* Whenever an array is created in javascript a reference variable is created. The reference variable knows the address of the element in array in memory.
+* An array originally stores the memory address of the element which is why whenever you compare arrays the result would be false as the address of elements are different even those the data types and elements are same.
+
+* constant arrays, In constant array you would be able to change, add, delete elements but you wont be able to change the address variable of the array.
+* Nested array: Array of arrays or multi dimensional arrays.
