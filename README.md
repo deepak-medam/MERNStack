@@ -125,3 +125,24 @@ This is the Repository for the course Delta 3.0 which includes Full Stack Develo
 ### P4
 
 - If ending condition is missing or logically wrong, you will run into infinite loop.
+
+### p5
+
+- Object literals are used to store keyed collection and complex entities.
+- Objects are a collection of properties.
+
+* There is a difference between Objects and object literals.
+* JavaScript automatically converts object keys to strings.
+
+* Objects of objects - Storing information of multiple students.
+
+* Math object
+  - Properties
+    - Math.PI
+    - Math.E
+  - Methods
+    - Math.abs(n) : Gives absolute value
+    - Math.pow(a, b) : Calculate the exponenet of the num
+    - Math.floor(n) : round of the number to the nearest smallest integer.
+    - Math.ceil(n) : round of the number to the nearest largest integer.
+    - Math.random() : gives random number between 0 and 1 but 1 is exclusive.
