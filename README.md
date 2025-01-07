@@ -146,3 +146,33 @@ This is the Repository for the course Delta 3.0 which includes Full Stack Develo
     - Math.floor(n) : round of the number to the nearest smallest integer.
     - Math.ceil(n) : round of the number to the nearest largest integer.
     - Math.random() : gives random number between 0 and 1 but 1 is exclusive.
+
+### P6
+
+- function keyword is used to declare function.
+
+####
+
+    function hello(){
+    console.log("hello");
+    }
+
+- Arguemnts are values that we pass to the function.
+
+* return keyword is used to return some value from the function.
+
+- whatever you write after return statement will not be executed.
+
+* Scope determines the accessiblity of variables, objects, and functions from different parts of the code.
+  - Function scope : Variables developed inside the function are not accessible/visible outside the function.
+  - Block scope : variables decalred inside the {} block cannot be accessed outside the block.
+  - Lexical scope : A variable defined outside a function can be accessible inside another function defined after the variable declaration. The opposite is NOT true.
+  - global scope - can be access all over the file.
+
+- Function expression is another way to write the function. We define the function but we store it inside a variable. These are also called nameless functions.
+
+- Higher Order Functions: A function that does One or both
+  - Takes one or multiple functions as arguments
+  - returns a function.
+- Factory function is a function that creates new functions.
+- Methods are functions that can be performed on an object or the ones that are defined inside a object.
