@@ -176,3 +176,20 @@ This is the Repository for the course Delta 3.0 which includes Full Stack Develo
   - returns a function.
 - Factory function is a function that creates new functions.
 - Methods are functions that can be performed on an object or the ones that are defined inside a object.
+
+### P7
+
+- This keyword refers to an object that is executing the current piece of code.
+- Methods can't directly use the parameters. To use the parameters we use this.
+- this keyword outside of the object prints a window object which is a higher object.
+- The try statement allows you to define a block of code to be tested for errors while it is being exectued.
+- The catch statement allows you to define a block of code toe be executed, if an error occurs in the try block.
+- Arrow functions are other way to define functions. To declare a arrow function we use const keyword, Arrow function are not standalone functions. We use arrow functions as a value as we assign a value to the variable.
+- Arrow functions are used to pass as the argument for higher order functions. The argument for higher order fucntion is called a callback.
+- Arrow functions are nameless functions.
+- If arrow functions are used to return a value, implicit return can be used.
+- setTimeOut() is window object function. We can set timer after which our work will be done. Timeout tells us after how much time to execute the function.
+- setTimeout() doesn't stop the execution of function, setTimeout exectues separately and all the rest of the code continues to execute separately.
+- setInterval() is same as setTimeout() it waits for certain time and executes the code but setInterval doesnt just execute once it execute multiple times. It keeps executing the same code indefinitely after specified time interval.
+- Every call in setInterval has a individual ID.
+- Arrow function scope is lexical and its scope is its parent scope, whereas traditional functions has their own scope.
