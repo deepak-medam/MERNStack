@@ -193,3 +193,35 @@ This is the Repository for the course Delta 3.0 which includes Full Stack Develo
 - setInterval() is same as setTimeout() it waits for certain time and executes the code but setInterval doesnt just execute once it execute multiple times. It keeps executing the same code indefinitely after specified time interval.
 - Every call in setInterval has a individual ID.
 - Arrow function scope is lexical and its scope is its parent scope, whereas traditional functions has their own scope.
+
+### P8
+
+- Array Methods:
+  - forEach
+  - map
+  - filter
+  - some
+  - every
+  - reduce
+
+* These methods take call back as an argument.
+* forEach runs the method passed as an argument with all the elements.
+* map() is very similar to forEach(). map() stores the values returned from the methods and store it in a new array whose size is same as original array.
+* filter() returns a new array which contains all the elements that satisfy the call back condition or returned as True.
+* every() returns true if every element of array gives true for some function else returns false.
+* some() returns true if some elements of array give true for some function else returns false.
+* reduce() reduces the array to a single value. To function we write to reduce the value is called reducer function which has two arguments, the first argument is called accumulator and the second argument is called element. Accumulator by default will have a value of 0.
+* default parameters gives a default value to the arguments.
+
+####
+
+    function sum(a, b = 3){
+      return a + b;
+    }
+
+    sum(2, 6) // 8
+    sum(2) // 5
+
+- Spread expands and iterable into multiple values to look at them as individual values. '...'and arr name ...arr will spread the elements.
+- Rest allows a function to take an indefinite number of arguments and bundle them in an array. It is opposite to spread.
+- Destructuring : Storing values of array into multiple variables
